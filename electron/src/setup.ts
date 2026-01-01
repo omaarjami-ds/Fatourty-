@@ -225,8 +225,8 @@ export function setupContentSecurityPolicy(customScheme: string): void {
         ...details.responseHeaders,
         'Content-Security-Policy': [
           electronIsDev
-            ? `default-src ${customScheme}://* 'unsafe-inline' devtools://* 'unsafe-eval' data:; connect-src ${customScheme}://* http://localhost:3000 http://127.0.0.1:3000 https://fatourty.onrender.com`
-            : `default-src ${customScheme}://* 'unsafe-inline' data:; connect-src ${customScheme}://* http://localhost:3000 http://127.0.0.1:3000 https://fatourty.onrender.com`,
+            ? `default-src ${customScheme}://* 'unsafe-inline' devtools://* 'unsafe-eval' data:; connect-src ${customScheme}://* https://fatourty.onrender.com`
+            : `default-src ${customScheme}://* 'unsafe-inline' data:; connect-src ${customScheme}://* https://fatourty.onrender.com`,
         ],
       },
     });
