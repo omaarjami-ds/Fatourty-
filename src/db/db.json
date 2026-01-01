@@ -1,0 +1,178 @@
+{
+  "Livreur": [
+    {
+      "id": "d706",
+      "nom": "Amir Jamai",
+      "NumTel": "93544223",
+      "Pourcentage": 30,
+      "CIN": "13527580",
+      "DateDepart": "2025-12-23",
+      "etat": "Actif"
+    },
+    {
+      "id": "47f1",
+      "nom": "Yahya ElBaw",
+      "NumTel": "99328850",
+      "Pourcentage": 30,
+      "CIN": "13519620",
+      "DateDepart": "2025-12-03",
+      "etat": "Actif"
+    }
+  ],
+  "Motor": [
+    {
+      "id": "1",
+      "NumPlaque": "BLEU",
+      "Kilometrage": 910,
+      "Color": "Blue"
+    },
+    {
+      "id": "d5f8",
+      "NumPlaque": "GRIS",
+      "Kilometrage": 300,
+      "Color": "Gray"
+    }
+  ],
+  "Journee": [
+    {
+      "id": "0fd5",
+      "Date": "2025-12-23",
+      "LivreurId": "47f1",
+      "MotorId": "1",
+      "Recette": 10,
+      "TotalDeponse": 7,
+      "PartieLivreur": 3,
+      "Net": 0
+    },
+    {
+      "id": "79f0",
+      "Date": "2025-12-23",
+      "LivreurId": "d706",
+      "MotorId": "d5f8",
+      "Recette": 44,
+      "TotalDeponse": 8,
+      "PartieLivreur": 13.2,
+      "Net": 22.8
+    },
+    {
+      "id": "31e5",
+      "Date": "2025-12-24",
+      "LivreurId": "47f1",
+      "MotorId": "1",
+      "Recette": 10,
+      "TotalDeponse": 0,
+      "PartieLivreur": 3,
+      "Net": 7
+    },
+    {
+      "id": "1149",
+      "Date": "2025-12-24",
+      "LivreurId": "d706",
+      "MotorId": "d5f8",
+      "Recette": 40,
+      "TotalDeponse": 5,
+      "PartieLivreur": 12,
+      "Net": 23
+    },
+    {
+      "id": "5170",
+      "Date": "2025-12-25",
+      "LivreurId": "47f1",
+      "MotorId": "1",
+      "Recette": 12.5,
+      "TotalDeponse": 0,
+      "PartieLivreur": 3.75,
+      "Net": 8.75
+    },
+    {
+      "id": "c278",
+      "Date": "2025-12-25",
+      "LivreurId": "d706",
+      "MotorId": "d5f8",
+      "Recette": 48,
+      "TotalDeponse": 8,
+      "PartieLivreur": 14.4,
+      "Net": 25.6
+    },
+    {
+      "id": "8169",
+      "Date": "2025-12-26",
+      "LivreurId": "47f1",
+      "MotorId": "1",
+      "Recette": 11,
+      "TotalDeponse": 4,
+      "PartieLivreur": 3.3,
+      "Net": 3.7
+    },
+    {
+      "id": "e05a",
+      "Date": "2025-12-26",
+      "LivreurId": "d706",
+      "MotorId": "d5f8",
+      "Recette": 34,
+      "TotalDeponse": 3,
+      "PartieLivreur": 10.2,
+      "Net": 20.8
+    },
+    {
+      "id": "2601",
+      "Date": "2025-12-27",
+      "LivreurId": "47f1",
+      "MotorId": "1",
+      "Recette": 9,
+      "TotalDeponse": 0,
+      "PartieLivreur": 2.7,
+      "Net": 6.3
+    },
+    {
+      "id": "288b",
+      "Date": "2025-12-27",
+      "LivreurId": "d706",
+      "MotorId": "d5f8",
+      "Recette": 23,
+      "TotalDeponse": 3,
+      "PartieLivreur": 6.9,
+      "Net": 13.1
+    },
+    {
+      "id": "077c",
+      "Date": "2025-12-28",
+      "LivreurId": "47f1",
+      "MotorId": "1",
+      "Recette": 8,
+      "TotalDeponse": 3,
+      "PartieLivreur": 2.4,
+      "Net": 2.6
+    },
+    {
+      "id": "ac7c",
+      "Date": "2025-12-29",
+      "LivreurId": "d706",
+      "MotorId": "d5f8",
+      "Recette": 33,
+      "TotalDeponse": 6,
+      "PartieLivreur": 9.9,
+      "Net": 17.1
+    },
+    {
+      "id": "4263",
+      "Date": "2025-12-30",
+      "LivreurId": "d706",
+      "MotorId": "1",
+      "Recette": 58,
+      "TotalDeponse": 7.5,
+      "PartieLivreur": 17.4,
+      "Net": 33.1
+    },
+    {
+      "id": "ce57",
+      "Date": "2025-12-30",
+      "LivreurId": "47f1",
+      "MotorId": "d5f8",
+      "Recette": 4,
+      "TotalDeponse": 36,
+      "PartieLivreur": 1.2,
+      "Net": -33.2
+    }
+  ]
+}
