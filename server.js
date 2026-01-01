@@ -1,4 +1,5 @@
-import { create, router as _router, defaults, rewriter } from 'json-server'
+import jsonServer from 'json-server'
+const { create, router: _router, defaults, rewriter } = jsonServer
 const server = create()
 const router = _router('./src/db/db.json')
 const middlewares = defaults()
